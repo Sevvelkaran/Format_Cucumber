@@ -28,7 +28,7 @@ public class LoginPageActions {
 		loginPageLocaters.login.click();
 	}
 	public void login() {
-		File file=new File("/Users/sevvelkaranpalanivetrivel/Desktop/Seleniumjava/CucumberFormat/src/test/resources/testdata.properties");
+		File file=new File("/Users/sevvelkaranpalanivetrivel/git/CucumberFormat/CucumberFormat/src/test/resources/testdata.properties");
 		FileInputStream fileInput=null;
 		try {
 			fileInput=new FileInputStream(file);
